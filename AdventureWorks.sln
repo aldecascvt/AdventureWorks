@@ -7,21 +7,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Data", "Adve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Services", "AdventureWorks.Services\AdventureWorks.Services.csproj", "{7CC70F6C-D8C2-4C86-8DD3-241DDDE0E8FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.UI.Web", "AdventureWorks.UI.Web\AdventureWorks.UI.Web.csproj", "{C6B22A60-5804-4444-8BA9-8E23086586CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureWorks.UI.Web", "AdventureWorks.UI.Web\AdventureWorks.UI.Web.csproj", "{C6B22A60-5804-4444-8BA9-8E23086586CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.UI.WPF", "AdventureWorks.UI.WPF\AdventureWorks.UI.WPF.csproj", "{2CC5A7C3-02C3-4D92-AD07-FE82685E2DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureWorks.UI.WPF", "AdventureWorks.UI.WPF\AdventureWorks.UI.WPF.csproj", "{2CC5A7C3-02C3-4D92-AD07-FE82685E2DA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.UI.Mobile.Android", "AdventureWorks.UI.Mobile\AdventureWorks.UI.Mobile.Android\AdventureWorks.UI.Mobile.Android.csproj", "{EAB8AEB0-6896-47F2-B29D-BEBDB3F79679}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.UI.Mobile.iOS", "AdventureWorks.UI.Mobile\AdventureWorks.UI.Mobile.iOS\AdventureWorks.UI.Mobile.iOS.csproj", "{E4A3C2BF-5330-4BBB-B11F-FE8510832F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.UI.Mobile", "AdventureWorks.UI.Mobile\AdventureWorks.UI.Mobile\AdventureWorks.UI.Mobile.csproj", "{F3240B63-3BD2-4EAF-89ED-2E4FD64EDBA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureWorks.UI.Mobile", "AdventureWorks.UI.Mobile\AdventureWorks.UI.Mobile\AdventureWorks.UI.Mobile.csproj", "{F3240B63-3BD2-4EAF-89ED-2E4FD64EDBA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Console", "AdventureWorks.Console\AdventureWorks.Console.csproj", "{A80E5932-D73E-4788-9D24-71795C66FAB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Ado", "AdventureWorks.Ado\AdventureWorks.Ado.csproj", "{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureWorks.NetCore", "AdventureWorks.NetCore\AdventureWorks.NetCore.csproj", "{1C679C42-D4F2-469A-940A-BD8B48F64463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.NetCore", "AdventureWorks.NetCore\AdventureWorks.NetCore.csproj", "{1C679C42-D4F2-469A-940A-BD8B48F64463}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Web.API", "AdventureWorks.Web.API\AdventureWorks.Web.API.csproj", "{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,18 +135,6 @@ Global
 		{A80E5932-D73E-4788-9D24-71795C66FAB2}.Release|iPhone.Build.0 = Release|Any CPU
 		{A80E5932-D73E-4788-9D24-71795C66FAB2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A80E5932-D73E-4788-9D24-71795C66FAB2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Release|iPhone.Build.0 = Release|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{B1E5B061-9295-48DC-B8CC-72AF83EE42FC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{1C679C42-D4F2-469A-940A-BD8B48F64463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C679C42-D4F2-469A-940A-BD8B48F64463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C679C42-D4F2-469A-940A-BD8B48F64463}.Debug|iPhone.ActiveCfg = Debug|Any CPU
@@ -159,6 +147,18 @@ Global
 		{1C679C42-D4F2-469A-940A-BD8B48F64463}.Release|iPhone.Build.0 = Release|Any CPU
 		{1C679C42-D4F2-469A-940A-BD8B48F64463}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{1C679C42-D4F2-469A-940A-BD8B48F64463}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Release|iPhone.Build.0 = Release|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{412A8B6F-6EAD-4A53-B244-21F7758AB4F5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
